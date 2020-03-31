@@ -132,6 +132,10 @@ CONFIG_BLOCKS_FORCED_IN_DIFF = [
     {
         'start': re.compile(r'extcommunity-set'),
         'end': re.compile(r'end-set')
+    },
+    {
+        'start': re.compile(r'policy-global'),
+        'end': re.compile(r'end-global')
     }
 ]
 
